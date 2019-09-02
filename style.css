@@ -47,3 +47,10 @@ body{
     width:100%;
 }
 
+.col{
+    padding:10px;
+}
+
+.card{
+    margin:30px;
+}
