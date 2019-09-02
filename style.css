@@ -42,3 +42,11 @@ body{
     padding-bottom:30px;
 }
 
+.shelf{
+    height:100%;
+    width:100%;
+}
+
+p{
+    position:absolute;
+}
