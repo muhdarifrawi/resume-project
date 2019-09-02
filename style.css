@@ -64,4 +64,10 @@ body{
   background-size: cover;
   /*this allows the image to stretch height to its max. needs html and body to be height:100% as well*/
   height:100%;
+  
+  color:white;
+}
+
+h1 {
+font-family: 'Libre Franklin', sans-serif;
 }
