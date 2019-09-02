@@ -55,9 +55,6 @@ body{
     margin:30px;
 }
 
-@media (max-width:375px){
- #skills{
-     display:flex;
-     flex-direction:column;
- }
+#skills{
+    padding:20px;
 }
