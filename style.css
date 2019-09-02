@@ -1,0 +1,23 @@
+html{
+    width:100%;
+    
+}
+
+body{
+    width:100%;
+    
+}
+
+
+.box{
+    height:50px;
+    width:50px;
+}
+
+.red{
+    background-color:red;
+}
+
+.blue{
+    background-color:blue;
+}
