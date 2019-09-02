@@ -58,3 +58,10 @@ body{
 #skills{
     padding:20px;
 }
+
+.jumbotron {
+  background-image: url("image/bench.jpg");
+  background-size: cover;
+  /*this allows the image to stretch height to its max. needs html and body to be height:100% as well*/
+  height:100%;
+}
