@@ -90,3 +90,21 @@ font-family: 'Libre Franklin', sans-serif;
     padding-right:0px;
     width:100%;
 }
+
+.pox{
+    background-color:purple;
+    height:100%;
+}
+
+.ghost{
+    background-color:lime;
+    height:100%;
+    position:relative;
+    transform:translate(0, -100%);
+    opacity:0;
+}
+
+.pox:hover .ghost{
+    cursor:pointer;
+    opacity:0.5;
+}
