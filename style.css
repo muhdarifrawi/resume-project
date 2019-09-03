@@ -102,6 +102,7 @@ font-family: 'Libre Franklin', sans-serif;
     position:relative;
     transform:translate(0, -100%);
     opacity:0;
+    transition-duration:0.5s;
 }
 
 .pox:hover .ghost{
