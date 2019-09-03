@@ -37,8 +37,13 @@ body{
     height:10px;
 }
 
+.banner{
+    width:100%;
+    height:300px;
+}
+
 .container{
-    padding-top:30px;
+    padding-top:70px;
     padding-bottom:30px;
 }
 
@@ -55,9 +60,6 @@ body{
     margin:30px;
 }
 
-#skills{
-    padding:20px;
-}
 
 .jumbotron {
   background-image: url("image/bench.jpg");
@@ -74,4 +76,11 @@ font-family: 'Libre Franklin', sans-serif;
 
 .card-body{
     background-color:rgb(5, 255, 172);
+}
+
+#footer{
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-right:0px;
+    width:100%;
 }
