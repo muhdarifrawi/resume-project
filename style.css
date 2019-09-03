@@ -113,9 +113,15 @@ font-family: 'Libre Franklin', sans-serif;
 .btn-primary{
     background-color:rgb(255, 193, 100);
     border-color:rgb(255, 193, 100);
+    
 }
 
 .btn-primary:hover {
     background-color:rgb(255, 154, 100);
     border-color:rgb(255, 154, 100);
+    
+}
+
+.icon{
+    height:60px;
 }
