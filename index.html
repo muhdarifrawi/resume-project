@@ -15,9 +15,9 @@
     <title>Online Resume</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navscroll" data-offset="100">
     <!-- Navbar starts here -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav id="navscroll" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">My Resume</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -49,7 +49,10 @@
         </div>
     </nav>
     <!-- navbar ends here -->
-
+    <!-- scroll spy -->
+    
+        
+    </div>
     <!--Jumbotron -->
     <div class="jumbotron jumbotron-fluid" id="home">
         <div class="container">
@@ -57,11 +60,17 @@
             <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
     </div>
+    
+    
 
     <div class="orange strip"></div>
 
-    <div class="container" id="skills">
+    
+
+    <div class="container"  id="skills">
+       
         <h1>Skills</h1>
+        
         <div class="row">
             <!-- left column-->
             <div class="col-sm-8"> 
@@ -77,15 +86,26 @@
                 </div>
                 <div class="row"> 
                     <div class="card">
-                    <div class="card-body">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec commodo orci. Donec id dui sit amet dolor auctor ornare dignissim in magna. Aliquam lacus risus, ultricies a commodo eget, ultricies eget nunc. Quisque suscipit, leo nec lobortis pellentesque, tellus sem pharetra felis, quis eleifend leo leo ac metus
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec commodo orci. Donec id dui sit amet dolor auctor ornare dignissim in magna. Aliquam lacus risus, ultricies a commodo eget, ultricies eget nunc. Quisque suscipit, leo nec lobortis pellentesque,
+                            tellus sem pharetra felis, quis eleifend leo leo ac metus
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
             <!-- right column -->
-            <div class="col-sm-4 red"> 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec commodo orci. Donec id dui sit amet dolor auctor ornare dignissim in magna. Aliquam lacus risus, ultricies a commodo eget, ultricies eget nunc. Quisque suscipit, leo nec lobortis pellentesque, tellus sem pharetra felis, quis eleifend leo leo ac metus. Nullam elit diam, malesuada et semper id, pretium venenatis velit. Morbi in volutpat mi. Pellentesque vel sapien enim. Mauris gravida semper libero. Maecenas sit amet purus non nisi volutpat iaculis. Duis nec nibh a velit condimentum malesuada. Cras eu purus purus. Nulla ultricies ante mauris.
+            <div class="col-sm-4 "> 
+                <div class="card">
+                  <div class="card-header">
+                      Quote
+                  </div>
+                  <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                          <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                      </blockquote>
+                  </div>
+                  </div>
             </div>
           
         </div>
@@ -198,15 +218,18 @@
     
        <div class="row">
         
-        <div class="col-sm-6 col-md-8">
+        <div class="col-sm-6 order-sm-2 col-md-4">
+            <div class="col"><img src="image/circle.png" class="img-fluid" alt="Responsive image"></div>
+            
+        </div>
+        <div class="col-sm-6 order-sm-1 col-md-8">
+            
             <div class="card">
                 <div class="card-body">
                     This is some text within a card body.
                 </div>
             </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-            <div class="col"><img src="image/circle.png" class="img-fluid" alt="Responsive image"></div>
+            
         </div>
         
     </div>
@@ -248,7 +271,7 @@
 </div>
 </div>
 
-</div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
