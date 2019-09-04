@@ -91,28 +91,6 @@ font-family: 'Libre Franklin', sans-serif;
     width:100%;
 }
 
-.pox{
-    background-color:purple;
-    height:100px;
-    width:100%;
-
-}
-
-.ghost{
-    background-color:lime;
-    height:100%;
-    width:50%;
-    position:relative;
-    transform:translate(100%, 0);
-    opacity:0;
-    transition-duration:0.5s;
-}
-
-.pox:hover .ghost{
-    cursor:pointer;
-    opacity:0.5;
-}
-
 .btn-primary{
     background-color:rgb(255, 193, 100);
     border-color:rgb(255, 193, 100);
@@ -184,7 +162,7 @@ font-family: 'Libre Franklin', sans-serif;
     animation-name: grow;
     animation-duration: 4s;
     animation-fill-mode:forwards;
-    transform:translate(0, 100%);
+    /*transform:translate(0, 100%);*/
 }
 
 @keyframes grow{
@@ -199,7 +177,38 @@ font-family: 'Libre Franklin', sans-serif;
     
 }
 
+
+.ware{
+    background-color:purple;
+    width:100px;
+    height:100%;
+    margin-left:150px;
+    
+}
+
 .rounded{
-    height:100px;
+    width:100%;
+}
+
+.house{
+    background-color:lime;
+    width:100px;
+    height:100%;
+    transform:translate(0,-100%);
+    opacity:0;
+    transition-duration:1s;
+    position:absolute;
+}
+
+.ware:hover .house{
+    opacity:1;
+    cursor:pointer;
+}
+
+.text{
+    color:white;
+    font-size:12px; 
+    transform:translate(40%,60%);
+    margin-top:5px;
 }
 
