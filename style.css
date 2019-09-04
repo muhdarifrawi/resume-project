@@ -117,11 +117,53 @@ font-family: 'Libre Franklin', sans-serif;
 }
 
 .btn-primary:hover {
-    background-color:rgb(255, 154, 100);
-    border-color:rgb(255, 154, 100);
+    background-color:rgb(255, 234, 5);
+    border-color:rgb(255, 234, 5);
     
 }
 
 .icon{
     height:60px;
+}
+
+#projects{
+    background-image:url(image/bench.jpg);
+}
+
+#skills{
+    background-image:url(image/graph.jpg);
+    background-size:cover;
+   
+}
+
+.rounded-box{
+    background-color:orange;
+    height:50px;
+    border-radius:5px;
+    text-align:center;
+    border:1px;
+
+}
+
+.rounded-box:hover{
+     background-color:rgb(255, 234, 5);
+    border-color:rgb(255, 234, 5);
+}
+
+.fa-twitter{
+    padding-top:5px;
+    font-size:40px;
+    color:white;
+}
+
+.fa-github{
+    padding-top:5px;
+    font-size:40px;
+    color:white;
+}
+
+.fa-instagram{
+    padding-top:5px;
+    font-size:40px;
+    color:white;
 }
