@@ -142,11 +142,12 @@ font-family: 'Libre Franklin', sans-serif;
     border-radius:5px;
     text-align:center;
     border:1px;
-
+    transition-duration:0.5s;
 }
 
 .rounded-box:hover{
-     background-color:rgb(255, 234, 5);
+    transition-duration:0.5s;
+    background-color:rgb(255, 234, 5);
     border-color:rgb(255, 234, 5);
 }
 
@@ -166,4 +167,8 @@ font-family: 'Libre Franklin', sans-serif;
     padding-top:5px;
     font-size:40px;
     color:white;
+}
+
+.follow{
+    margin-top:50px;
 }
