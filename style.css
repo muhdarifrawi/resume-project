@@ -172,3 +172,30 @@ font-family: 'Libre Franklin', sans-serif;
 .follow{
     margin-top:50px;
 }
+
+
+.bar {
+    width:0%;
+    height:30px;
+    background-color:blue;
+    animation-name: grow;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    transform:translate(0, 100%);
+}
+
+@keyframes grow{
+    
+    from{
+        width:0%;
+    }
+    
+    to{
+        width:90%;
+    }
+    
+}
+
+.rounded{
+    height:100px;
+}
