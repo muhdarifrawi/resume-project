@@ -326,3 +326,27 @@ font-family: 'Libre Franklin', sans-serif;
   background-image:url(image/thumb/indoor.jpg);
   background-size:cover; 
 }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 426px) {
+    
+    .ware{
+    
+    margin-left:0px;
+    padding-top:20px;
+   
+    }
+    
+    .bar-min, .bar-mid, .bar-full{
+        
+    margin-bottom:25px;
+    }
+    
+    .note {
+    transform:rotate(0deg);
+    transition-duration: 1s;
+    }
+    
+    
+    
+}
