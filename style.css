@@ -307,6 +307,24 @@ font-family: 'Libre Franklin', sans-serif;
     transform:rotate(0deg);
 }
 
+.note2 {
+    transform:rotate(10deg);
+    transition-duration: 1s;
+}
+
+.note2:hover {
+    transform:rotate(0deg);
+}
+
+.note3 {
+    transform:rotate(-5deg);
+    transition-duration: 1s;
+}
+
+.note3:hover {
+    transform:rotate(0deg);
+}
+
 .thumb{
     height:330px;
     width:330px;
@@ -343,6 +361,16 @@ font-family: 'Libre Franklin', sans-serif;
     }
     
     .note {
+    transform:rotate(0deg);
+    transition-duration: 1s;
+    }
+    
+    .note2 {
+    transform:rotate(0deg);
+    transition-duration: 1s;
+    }
+    
+    .note3 {
     transform:rotate(0deg);
     transition-duration: 1s;
     }
