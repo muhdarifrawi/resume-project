@@ -121,7 +121,7 @@ font-family: 'Libre Franklin', sans-serif;
 }
 
 #projects{
-    background-image:url(image/bg/circuits.jpg);
+    background-image:url(image/bg/corkboard.jpg);
     background-size:cover;
     height:auto;
     padding:0px;
@@ -133,7 +133,7 @@ font-family: 'Libre Franklin', sans-serif;
 }
 
 #skills{
-    background-image:url(image/bg/graph.jpg);
+    background-image:url(image/bg/notepad.png);
     background-size:cover;
    
 }
@@ -347,6 +347,9 @@ font-family: 'Libre Franklin', sans-serif;
     transition-duration: 1s;
     }
     
+    #skills{
+        padding-top:25px;
+    }
     
     
 }
