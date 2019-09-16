@@ -78,7 +78,8 @@ Respective pictures were borrowed from the following sources:
 
 ### Acknowledgements
 My website was inspired by two webpages. I was trying to achieve a clean minimalistic look inspired by these two projects. 
-[Inspiration 1 - Code Institute project demo](https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/)
-[Inspiration 2 - Anotherstate website](https://anotherstate.co/)
+
+* [Inspiration 1 - Code Institute project demo](https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/)
+* [Inspiration 2 - Anotherstate website](https://anotherstate.co/)
 
 Also, to avoid any misunderstandings, I would like to reitrate again that this webpage is for educational purposes only.  
