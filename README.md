@@ -29,22 +29,22 @@ Scrollspy was used to highlight the section the user is currently on. Also it al
 
 ### Features to Implement
 
-Improvements could be made to enable animation only after the AoS was activated. Further optimization to adapt to diff browsers would be something I would look into as well. 
+Improvements could be made to enable animation only after the AoS was activated. Further optimization to adapt to different browsers would be something I would look into as well. 
 
 ## Testing 
 The overall look of the webpage was achieved as intended. Though improvements could be made to the skills section so as not to distrupt the flow of the webpage. 
 
 Scrolling down the website, the words on the navbar bolds according to the section you are currently on. There were no issues in clicking the navbar to direct to the section either. 
 
-AoS works as intended though it would have been better if the animation starts after the AoS was activated.
+AoS works as intended in the skills section, though it would have been better if the animation starts after the AoS was activated.
 
-Under the projects section, the "post-its" looking cards animates on mouse hover and the buttons changes color on hover as well. Links to the demo page and GitHub goes to the addresses coded. For this section, I used my current project as a placeholder. I didn't feel it was necessary to find other projects to link out. 
+Under the projects section, the "post-its" looking cards animates on mouse hover and the buttons changes color on hover as well. Links to the demo page and GitHub goes to the addresses coded. For this section, I used my current project as a placeholder. I didn't feel it was necessary to find other's projects to link out. 
 
 Hobbies section also has a mouse hover function implemented on the card section. On hovering, the card section turn more opaque. For this section, I placed Lorem Ipsum as a placeholder. 
 
 Contact me section has a form that works as intended. Clicking on submit while the form is empty would trigger notification on the empty section itself. 
 
-Follow me section has three buttons each leading to the respective pages as indicated by the icons. They too have the omuse hover function. 
+Follow me section has three buttons each leading to the respective pages as indicated by the icons. They too have the mouse hover function. 
 
 The site was tested for mobile usage thru my iPhone 7s. The layout of the webpage as a whole looks as intended. On mobile, the "post-its" in the projects section is striaghtened up to reduce the animation redundancy for it. 
 
