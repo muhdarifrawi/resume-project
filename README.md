@@ -25,7 +25,7 @@ Users of webpage should be able to look for the things they want to find out abo
 
 ### Existing Features
 
-Scrollspy was used to highlight the section the user is currently on. Also it allows a quick navigation to the section the user wishes to go to. Action on Scroll(AoS) was used to reveal the skills section. 
+Scrollspy was used to highlight the section the user is currently on. Also it allows a quick navigation to the section the user wishes to go to. Action on Scroll (AoS) was used to reveal the skills section. 
 
 ### Features to Implement
 
